@@ -26,7 +26,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kanha:kanha@cluster0.v
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002183598509'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002185802905'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.jpg')
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002227062393'))
