@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '6919281179:AAGgNIu-G3O1XxNU7FEzXPx5wZGvrqa
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6585036859').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/biisal")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002220345903'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+4RB2-U2o9yE4ZmQ9')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+LjUsF9--W9s2MjZl')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002148047566').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kanha:kanha@cluster0.vfctmws.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
