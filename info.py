@@ -19,17 +19,17 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '6919281179:AAGgNIu-G3O1XxNU7FEzXPx5wZGvrqa
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6585036859').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/biisal")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-10019494867581'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002220345903'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+4RB2-U2o9yE4ZmQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001234567898').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002148047566').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kanha:kanha@cluster0.vfctmws.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001949498981'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002183598509'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.jpg')
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002031180571'))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002227062393'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1001905670346'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
